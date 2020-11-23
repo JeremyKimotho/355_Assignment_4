@@ -1,0 +1,164 @@
+Script started on 2020-11-22 18:52:09-07:00
+]0;jeremy.kimotho@csa1:~/Desktop/CPSC_355/assignment_4/before_structjeremy.kimotho@csa1:~/Desktop/CPSC_355/assignment_4/before_struct$ exitgdb --args assign4 6 6[9P./[C[C[C[C[C[C[C[C[C[C[C[9@gdb --args [C[C[C[C[C[C[C[C[C[C[C
+GNU gdb (GDB) Fedora 8.1.1-4.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign4...done.
+(gdb) b print       r
+Starting program: /home/ugd/jeremy.kimotho/Desktop/CPSC_355/assignment_4/before_struct/assign4 6 6
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-38.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+
+*****Program Starts*****
+
+8  4  13 6  9  9  Highest: 13, Index: 2, Frequency: 26
+10 4  2  1  8  8  Highest: 10, Index: 0, Frequency: 30
+12 10 2  2  5  15 Highest: 15, Index: 5, Frequency: 32
+1  9  13 7  8  16 Highest: 16, Index: 5, Frequency: 29
+10 11 12 5  14 4  Highest: 14, Index: 4, Frequency: 25
+12 5  8  8  10 16 Highest: 16, Index: 5, Frequency: 27
+
+*****Program Ends*****
+
+[Inferior 1 (process 20598) exited with code 031]
+(gdb) r
+Starting program: /home/ugd/jeremy.kimotho/Desktop/CPSC_355/assignment_4/before_struct/assign4 6 6
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+
+*****Program Starts*****
+
+16 12 3  5  6  7  Highest: 16, Index: 0, Frequency: 32
+5  7  9  5  10 3  Highest: 10, Index: 4, Frequency: 25
+7  4  9  12 10 4  Highest: 12, Index: 3, Frequency: 26
+1  15 15 2  2  13 Highest: 15, Index: 1, Frequency: 31
+9  2  15 15 12 1  Highest: 15, Index: 2, Frequency: 27
+9  12 12 11 16 1  Highest: 16, Index: 4, Frequency: 26
+
+*****Program Ends*****
+
+[Inferior 1 (process 20602) exited with code 031]
+(gdb) r
+Starting program: /home/ugd/jeremy.kimotho/Desktop/CPSC_355/assignment_4/before_struct/assign4 6 6
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+
+*****Program Starts*****
+
+3  6  6  12 13 10 Highest: 13, Index: 4, Frequency: 26
+10 13 15 12 7  3  Highest: 15, Index: 2, Frequency: 25
+7  6  15 5  14 11 Highest: 15, Index: 2, Frequency: 25
+7  14 7  9  16 3  Highest: 16, Index: 4, Frequency: 28
+4  2  7  14 9  14 Highest: 14, Index: 3, Frequency: 28
+4  11 3  10 7  15 Highest: 15, Index: 5, Frequency: 30
+
+*****Program Ends*****
+
+[Inferior 1 (process 20604) exited with code 031]
+(gdb) r
+Starting program: /home/ugd/jeremy.kimotho/Desktop/CPSC_355/assignment_4/before_struct/assign4 6 6
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+
+*****Program Starts*****
+
+2  1  15 4  7  6  Highest: 15, Index: 2, Frequency: 42
+7  13 12 15 10 1  Highest: 15, Index: 3, Frequency: 25
+15 1  12 2  11 15 Highest: 15, Index: 0, Frequency: 26
+4  5  6  16 14 6  Highest: 16, Index: 3, Frequency: 31
+10 7  7  2  7  4  Highest: 10, Index: 0, Frequency: 27
+7  8  4  5  12 10 Highest: 12, Index: 4, Frequency: 26
+
+*****Program Ends*****
+
+[Inferior 1 (process 20606) exited with code 031]
+(gdb) r
+Starting program: /home/ugd/jeremy.kimotho/Desktop/CPSC_355/assignment_4/before_struct/assign4 6 6
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+
+*****Program Starts*****
+
+10 5  3  13 7  6  Highest: 13, Index: 3, Frequency: 29
+15 10 10 10 11 7  Highest: 15, Index: 0, Frequency: 23
+7  15 9  4  9  6  Highest: 15, Index: 1, Frequency: 30
+10 13 3  7  5  5  Highest: 13, Index: 1, Frequency: 30
+16 10 5  11 4  14 Highest: 16, Index: 0, Frequency: 26
+7  14 2  10 10 8  Highest: 14, Index: 1, Frequency: 27
+
+*****Program Ends*****
+
+[Inferior 1 (process 20611) exited with code 031]
+(gdb) b priun  nt
+Breakpoint 1 at 0x4008cc: file assign4.s, line 150.
+(gdb) t r
+Starting program: /home/ugd/jeremy.kimotho/Desktop/CPSC_355/assignment_4/before_struct/assign4 6 6
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+
+*****Program Starts*****
+
+
+Breakpoint 1, print () at assign4.s:150
+150		mul     x27, x20, x21					// multiply x20 by i which is x19 x24. this is first part of x27
+(gdb) x/54d $x sp
+0xffffffffec20:	3	15	7	7
+0xffffffffec30:	2	3	15	1
+0xffffffffec40:	40	4	16	8
+0xffffffffec50:	9	10	6	16
+0xffffffffec60:	1	30	14	5
+0xffffffffec70:	11	12	9	12
+0xffffffffec80:	14	0	22	15
+0xffffffffec90:	5	9	7	4
+0xffffffffeca0:	16	16	5	28
+0xffffffffecb0:	12	6	1	8
+0xffffffffecc0:	3	4	12	0
+0xffffffffecd0:	35	9	5	2
+0xffffffffece0:	15	11	3	15
+0xffffffffecf0:	3	33
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 20629] will be killed.
+
+Quit anyway? (y or n) y
+]0;jeremy.kimotho@csa1:~/Desktop/CPSC_355/assignment_4/before_structjeremy.kimotho@csa1:~/Desktop/CPSC_355/assignment_4/before_struct$ exit
+exit
+
+Script done on 2020-11-22 18:53:29-07:00
